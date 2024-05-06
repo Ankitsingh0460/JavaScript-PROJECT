@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./image/holiday-birthday.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.col div {
+  width: 250px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.col {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+input {
+  width: 50%;
+  height: 50px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 30px;
+}
